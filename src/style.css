@@ -1,0 +1,65 @@
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+    background: white;
+    height: 340px;
+
+}
+
+.sidebar {
+    background: #87ceeb00;
+    border-radius: 42px;
+    padding: 2rem 3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 100vh;
+    overflow: auto;
+}
+.btnFile{
+    background: #05c5058c;
+    box-shadow: rgb(50 50 93 / 0%) 0px 30px 60px -12px inset, rgb(0 0 0 / 31%) 0px 18px 36px -18px inset;
+    color: black;
+    padding: 9px;
+    border-radius: 9px 0px 0px 9px;
+    font-size: 37px;
+}
+.btnFile2{
+    background: lightgray;
+    color: black;
+    padding: 9px;
+    border-radius: 0px 9px 9px 0px;
+    font-size: 37px;
+   
+}
+.container-file{
+    text-align: center;
+}
+.btn-feedback Button{
+    background: #05c5058c;
+    color: black ;
+    box-shadow: rgb(50 50 93 / 0%) 0px 30px 60px -12px inset, rgb(0 0 0 / 31%) 0px 18px 36px -18px inset;
+    border-radius: 7px;
+    font-size: 11px;
+    padding: 9px 32px;
+}
+.heading-title h2{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+.heading-title p{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+.nav-pagintation{
+    margin-top: 31px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
